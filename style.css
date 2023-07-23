@@ -1,0 +1,27 @@
+h1{ 
+    text-align: center;
+    color:red;  background: #000;
+    text-decoration:Black underline;
+}
+h2{
+    color:black;
+}
+h3{
+    color:maroon;
+}
+form{
+    color:limegreen;
+}
+button{
+    color:blue;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+*{
+    line-height: 16px;
+}
+*{
+    background-color: aliceblue;
+}
