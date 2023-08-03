@@ -1,29 +1,39 @@
 # portfolio-website
-Only HTML & CSS is Used.
-HTMl CODE IS DOWN BELOW:
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bipaannnn </title>
     <link rel="stylesheet" href="style.css"> 
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Sorry! This is just a practice webpage.";
+        }
+        </script>
 </head> 
 
-<body><header>
-    <h1><pre><i>MY PORTFOLIO</i></h1></pre></header>
-    <main>
+<body>
+    <div id="navbar">
+    <a id="logo"> Bipan.in </a>
+    <a style="color: aliceblue;"> Projects </a>
+    <a  style="color: aliceblue;"> Skills</a>
+    <a  style="color: aliceblue;"> Certifications </a>
+    <a  style="color: aliceblue;"> Research </a>
+    <input placeholder="Search in page">
+    <button> Search </button>
+</div>
+    <main><br>
 
-        <b>About Myself :</b>
+        <h1 style="background-color: crimson;" ><b>Brief Info</b></h1>
         <br/>
-        <article>
-            I am BIPAN NEUPANE and I love COFFEE & CODING. Actually I'm not a pro in coding but I am, I think in intermediate level of coding.
-            I know basics of C and C++. And right now I am learning Frontend sooner I'll be learning Backend too.
+        <article style="color:maroon;">
+            I am BIPAN NEUPANE and I love COFFEE & CODING. Actually I'm in intermediate level of coding.I know basics of 
+            C and C++. And right now I am learning Frontend(HTML,CSS,JavaScript) sooner I'll be learning Backend too.
             I love computer and keyboard clickings a lot since my school level as there used to be a Computer in a lab which we get to use it only 
             when there is a practical class otherwise we can not go there and use it as we wanted. </article>
-            <article>
+            <article style="color: maroon;">
                 So that was how i get familiar with computer and later on time changes i also got a new keypad phone named NOKIA.
             My first internet surfing was from that phone. I at first didn't know about that it costs us money to use that service. 
             I didn't even know what actually a internet was at that time. I randomly searched a drawing of a cow in search bar which
@@ -59,16 +69,16 @@ HTMl CODE IS DOWN BELOW:
     <a href "Https://twitter.com/login">TWITTER</a><br/>
     <a href "Https://t.me/login">TELEGRAM</a>
 
-
-   
-    <!--<textarea name="Feedback" id="Feedback" placeholder="Please Give Me a Feedback"></textarea></br>
-    <textarea name="Subscribe me" id="Subscribe" placeholder="Enter email here to subscribe us"></textarea> -->
     <form></br>
         SIGN UP FOR MORE CONTENT:</br>
-    <form action="/action.php">
+        <form method="post" action="action.php"></form>
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
         <input type="Text" placeholder="Enter Email/Phone Number"></br>
         <input type="password" placeholder="Enter Password"><br>
-        <button>LOG IN</button></form>
+        <p id="demo"></p>
+
+<button type="button" onclick="myFunction()">LOG IN</button><br>
+        </form>
     <hr><p>Tell Us Where Are You From?</p>
     <select>
         <option value="Kathmandu">Kathmandu</option>
@@ -83,11 +93,8 @@ HTMl CODE IS DOWN BELOW:
         <option value="Pokhara">Pokhara</option>
         <option value="Other">Other Districts</option>
     </select>
-    <h4 style="color:green">Watch My Favourite Song</h4>
-    <iframe width="460" height="275" src="https://www.youtube.com/embed/K_XcqhPtmzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <div> <footer>
-        <h3>
             Buy Me A Coffee:<br/>
-            ESEWA ID : 9762784270<br/>
+            ESEWA ID : 97*******0<br/> 
         </h3>
     </div>
     <p style="color:blueviolet">Rate My Website:</p>
